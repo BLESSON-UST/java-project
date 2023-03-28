@@ -5,10 +5,10 @@ import java.io.*;
 public class SerializationExample {
    public static void main(String[] args) {
       Employee emp = new Employee();
-      emp.name = "John Doe";
-      emp.address = "123 Main St";
+      emp.name = "Blesson";
+      emp.address = "Kottayam";
       emp.SSN = 123456789;
-      emp.number = 101;
+      emp.number = 245045;
 
       try {
          FileOutputStream fileOut = new FileOutputStream("employee.ser");
